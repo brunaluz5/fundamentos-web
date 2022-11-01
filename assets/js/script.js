@@ -30,7 +30,7 @@ function validaNome(){
     } else {
         txtNome.innerHTML = 'Nome válido!'
         txtNome.style.color = 'green'
-        let nomeOk = true
+        nomeOk = true
        
     }
 }
@@ -44,7 +44,7 @@ function validaEmail(){
     } else {
         txtEmail.innerHTML = 'E-mail válido!'
         txtEmail.style.color = 'green'
-        let emailOk = true
+        emailOk = true
       
     }
 }
@@ -58,7 +58,7 @@ function validaAssunto(){
         txtAssunto.style.display = 'block'
     } else {
         txtAssunto.style.display = 'none'
-        let assuntoOk = true
+        assuntoOk = true
     }
 }
 
